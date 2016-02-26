@@ -141,7 +141,7 @@ func ValueLabels(f *os.File, d *Variables) error {
 				return err
 			}
 			for _, vs := range v.Vals {
-				_, err = f.WriteString(fmt.Sprintf("\t\t%d \"%s\"\n", vs.Value, v.Name))
+				_, err = f.WriteString(fmt.Sprintf("\t\t%d \"%s\"\n", vs.Value, vs.Name))
 				if err != nil {
 					return err
 				}
