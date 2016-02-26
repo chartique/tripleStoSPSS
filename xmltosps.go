@@ -180,6 +180,16 @@ func ValueLabels(f *os.File, d *Variables) error {
 }
 
 
+/* Creates a line to save the SPSS file as a *.sav */
+func SaveToSPSS(p string, fn string, f *os.File) error {
+	_, err := f.WriteString(fmt.Sprintf("SAVE OUTFILE='%s/%s.sav'\n/COMPRESSED.", p, fn))
+	if err != nil {
+		log.Fatalln(err)
+	}
+	return nil
+}
+
+
 func main() {
 	if len(os.Args) < 3 {
 		log.Fatalln("Usage: XMLtoSPS <XML:filepath> <ASC:filepath>")
@@ -209,5 +219,8 @@ func main() {
 	if err != nil {log.Fatalln(err)}
 
 	err = ValueLabels(file, data)
+	if err != nil {log.Fatalln(err)}
+
+	err = SaveToSPSS(path.Dir(input), fn, file)
 	if err != nil {log.Fatalln(err)}
 }
