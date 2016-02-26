@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;tripleStoSPSS&gt;">
+    <CLASSES>
+      <root url="file://$USER_HOME$/IdeaProjects/goho/src/svgTest" />
+      <root url="file://$USER_HOME$/IdeaProjects/goho/src/github.com" />
+      <root url="file://$USER_HOME$/IdeaProjects/goho/src/gonba" />
+      <root url="file://$USER_HOME$/IdeaProjects/goho/src/gopkg.in" />
+      <root url="file://$USER_HOME$/IdeaProjects/goho/src/golang.org" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="file://$USER_HOME$/IdeaProjects/goho/src/github.com/russross/blackfriday/.git" />
+      <root url="file://$USER_HOME$/IdeaProjects/goho/src/github.com/russross/blackfriday/testdata" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$USER_HOME$/IdeaProjects/goho/src/golang.org/x/net/http2/testdata" />
+      <root url="file://$USER_HOME$/IdeaProjects/goho/src/github.com/mattn/go-sqlite3/.git" />
+      <root url="file://$USER_HOME$/IdeaProjects/goho/src/github.com/ajstarks/svgo/.git" />
+      <root url="file://$USER_HOME$/IdeaProjects/goho/src/gopkg.in/unrolled/render.v1/.git" />
+      <root url="file://$USER_HOME$/IdeaProjects/goho/src/github.com/mattn/go-sqlite3/_example" />
+      <root url="file://$USER_HOME$/IdeaProjects/goho/src/github.com/shurcooL/sanitized_anchor_name/.git" />
+      <root url="file://$USER_HOME$/IdeaProjects/goho/src/golang.org/x/net/.git" />
+      <root url="file://$USER_HOME$/IdeaProjects/goho/src/github.com/julienschmidt/httprouter/.git" />
+      <root url="file://$USER_HOME$/IdeaProjects/goho/src/golang.org/x/net/html/charset/testdata" />
+      <root url="file://$USER_HOME$/IdeaProjects/goho/src/github.com/codegangsta/negroni/.git" />
+      <root url="file://$USER_HOME$/IdeaProjects/goho/src/gopkg.in/mgo.v2/.git" />
+      <root url="file://$USER_HOME$/IdeaProjects/goho/src/golang.org/x/net/html/testdata" />
+    </excluded>
+  </library>
+</component>

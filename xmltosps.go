@@ -172,7 +172,7 @@ func ValueLabels(f *os.File, d *Variables) error {
 			}
 		}
 	}
-	_, err = f.WriteString(fmt.Sprint("EXECUTE."))
+	_, err = f.WriteString(fmt.Sprint("EXECUTE.\n\n"))
 	if err != nil {
 		return err
 	}
